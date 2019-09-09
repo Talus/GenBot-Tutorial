@@ -6,6 +6,7 @@ usedCommandRecently4 = new Set();
 
 client.on('ready', () =>{
     console.log('gen bot is now online')
+    client.user.setPresence({ game: { name: `${client.guilds.size} Servers`, type: "WATCHING"}});
 });
 client.on('message', message =>{
     if (message.content === 'hello'){
