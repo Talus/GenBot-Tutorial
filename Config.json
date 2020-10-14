@@ -1,0 +1,7 @@
+{
+  "token": "",
+  "prefix": "!",
+  "language" : "en",
+  "mainURL": "https://evilinsult.com/generate_insult.php?",
+  "slaveURL" : "https://slave.evilinsult.com/generate_insult.php?"
+}
